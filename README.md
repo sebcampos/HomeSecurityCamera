@@ -113,7 +113,7 @@ If you are using the case provided in this tutorial and the battery you will nee
 <p float="left">
 	<img src="static/cameraport.gif"
 	     alt="cameraport"
-	     style="width: 20%; height: 20%" />
+	     style="width: 10%; height: 20%" />
 	<img src="static/camerapi.png"
 	     alt="camerapi"
 	     style="float: left; width: 20%; height: 20%;" />
