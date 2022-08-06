@@ -22,6 +22,12 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 
 - [Raspberry Pi 4 Model B 2019 Quad Core 64 Bit WiFi Bluetooth (4GB)](https://www.amazon.com/gp/product/B07TC2BK1X/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 
+<img src="https://m.media-amazon.com/images/I/61pj7sQU3qL._AC_SX679_.jpg"
+     alt="Raspberry Pi Charger"
+     style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
+
+- [Raspberry Pi 4 Model B Official PSU, USB-C, 5.1V, 3A, US Plug, Black SC0218 Pi Accessory (KSA-15E-051300HU)](https://www.amazon.com/gp/product/B07W8XHMJZ/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
+
 <img src="https://m.media-amazon.com/images/I/51rQwXKnJSL._AC_SX679_.jpg"
      alt="Raspberry Battery"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
