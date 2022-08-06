@@ -46,7 +46,9 @@ exit and restart the terminal.
 ensure pyenv has installed correctly by entering
 `pyenv`
 into the terminal. You should see an output similar to the following:
-[pyenv](/static/pyenvoutput.png)
+
+![pyenv](../static/pyenvoutput.png)
+
 navigate back to out Projects directory using the `cd` command
 next we will install python version 3.8.8 using pyenv so we can use Tensorflow and Django (this might take a minute)
 
