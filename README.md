@@ -36,7 +36,8 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
  
 - [Infared Camera](https://www.amazon.com/dp/B07BK1QZ2L?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 
-#### Optional
+
+#### Optional Hardware
 <img src="https://m.media-amazon.com/images/I/61pj7sQU3qL._AC_SX679_.jpg"
      alt="Raspberry Pi Charger"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
