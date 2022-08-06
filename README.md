@@ -155,3 +155,20 @@ This tutorial shows us how to set up our Pi using a monitor. We will later go in
 	     style="width: 50%; height: 20%;" />
 </p>
 
+3. Next we will make the pi accessibile via ssh and remote desktop (vnc)
+
+<p align="middle">
+	<img src="static/editconfig.png"
+	     alt="editconfig"
+	     align="top"
+	     style="width: 50%; height: 20%;" />
+	<img src="static/editinterface.png"
+	     alt="editinterface"
+	     align="top"
+	     style="width: 50%; height: 20%;" />
+	<img src="static/allowsshvnc.png"
+	     alt="allowsshvnc"
+	     align="top"
+	     style="width: 50%; height: 20%;" />
+</p>
+
