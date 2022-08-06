@@ -20,7 +20,7 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 	Linux raspberrypi 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64 GNU/Linux
 ```
 
-<img src="https://m.media-amazon.com/images/I/81BjdWu7D+L._AC_SX679_.jpg"
+<img src="https://m.media-amazon.com/images/I/41miUeFB0ML._AC_SX679_.jpg"
      alt="raspberytohdmi"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
 
