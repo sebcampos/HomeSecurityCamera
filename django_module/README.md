@@ -24,9 +24,9 @@ Projects
 └── djangoapp
 ```
 in the shell enter the following commands:
-
-`cd`
-`mkdir Projects`
-`cd Projects`
-
+```
+cd
+mkdir Projects
+cd Projects
+```
 This will make a new directory/folder in your Home folder and move into that directory.
