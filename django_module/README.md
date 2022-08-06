@@ -31,5 +31,7 @@ cd Projects
 ```
 This will make a new directory/folder in your Home folder and move into that directory.
 Now lets install pyenv to help us manage different versions of python when we need to
+
 `curl https://pyenv.run | bash`
+
 Now lets install a version of python that will work with tensorflow and Django, python 
