@@ -118,7 +118,7 @@ If you are using the case provided in this tutorial and the battery you will nee
 	<img src="static/camerapi.png"
 	     alt="camerapi"
 	     align="top"
-	     style="float: left; width: 25%; height: 20%;" />
+	     style="float: left; width: 50%; height: 20%;" />
 </p>
 ## First Set Up
 This tutorial shows us how to set up our Pi using a monitor. We will later go into ssh-ing into the pi and using the already installed vnc viewer server. But you can edit the config files so that you are free to ssh before the initial set up check it out! [ssh into pi before set up](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html)
