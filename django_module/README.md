@@ -37,12 +37,18 @@ create an empty directory in the current Projects folder called djangoapp
 Now lets install pyenv and add it to our PATH to help us manage different versions of python when we need to
 ```
 curl https://pyenv.run | bash
-export PATH="$HOME/.pyenv/bin:$PATH"
+echo 'export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc 
 ```
-next we will create a venv for python version 3.8.8 using pyenv (this might take a minute)
+exit and restart the terminal.
+navigate back to out Projects directory using the `cd` command
+next we will install python version 3.8.8 using pyenv so we can use Tensorflow and Django (this might take a minute)
 
 `pyenv install 3.8.8`
 
-Now lets install a version of python that will work with tensorflow and Django, python 
+Next we will move into our django app directory with the command
+
+`cd djangoapp`
+
+
