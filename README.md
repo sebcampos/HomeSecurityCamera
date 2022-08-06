@@ -4,6 +4,7 @@
      alt="img"
      style="float: center; width: 100%; height: 100%; margin-right: 10px;" />
 </p>
+
 ## Description
 This repo contains a project using a Raspberry pi, Django and a Tensorflow
 pretrained Model to create a local webserver displaying camera footage 
