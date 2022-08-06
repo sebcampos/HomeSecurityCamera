@@ -115,7 +115,7 @@ If you are using the case provided in this tutorial and the battery you will nee
      alt="cameraport"
      style="float: left; width: 50%; height: 50%" />
 
-<img src="static/camerapi.pdf"
+<img src="static/camerapi.png"
      alt="camerapi"
      style="float: left; width: 50%; height: 50%;" />
 
