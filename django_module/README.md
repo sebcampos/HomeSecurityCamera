@@ -35,6 +35,30 @@ create an empty directory in the current Projects folder called djangoapp
 
 
 Now lets install pyenv and add it to our PATH to help us manage different versions of python when we need to
+pyenv dependencies:
+```
+sudo apt update
+sudo apt install \
+build-essential \
+curl \
+libbz2-dev \
+libffi-dev \
+liblzma-dev \
+libncursesw5-dev \
+libreadline-dev \
+libsqlite3-dev \
+libssl-dev \
+libxml2-dev \
+libxmlsec1-dev \
+llvm \
+make \
+tk-dev \
+wget \
+xz-utils \
+zlib1g-dev \
+libbluetooth-dev
+```
+
 ```
 curl https://pyenv.run | bash
 echo 'export PATH="$HOME/.pyenv/bin:$PATH"
