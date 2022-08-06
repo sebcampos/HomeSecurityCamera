@@ -21,6 +21,12 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 ```
 
 <img src="https://m.media-amazon.com/images/I/81BjdWu7D+L._AC_SX679_.jpg"
+     alt="raspberytohdmi"
+     style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
+
+- [Connect Pi to monitor HDMI](https://www.amazon.com/Adapter-Graphic-Samsung-Android-Function/dp/B09PQL1MBQ/ref=sr_1_5?crid=2SW1PZQVRATWY&keywords=hdmi+to+micro+usb&qid=1659813415&sprefix=hdmi+to+micro+usb%2Caps%2C120&sr=8-5)
+
+<img src="https://m.media-amazon.com/images/I/81BjdWu7D+L._AC_SX679_.jpg"
      alt="MicroSD with adaptor"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
 
