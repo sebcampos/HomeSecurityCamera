@@ -79,6 +79,6 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 - Visit Raspberry Pi website to download an imager for your operating system [Download from here](https://www.raspberrypi.com/software/)
 - Once you have done that you can insert the sd card into your computer and launch the application
 
-[[/static/imger.gif|imger]]
+[link text](static/imger.gif "ALT TEXT")
 
 - Click on Choose storage and select your microsd
