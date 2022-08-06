@@ -30,13 +30,13 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
      alt="Raspberry Case"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
  
-- https://www.amazon.com/gp/product/B07WPLDVQJ/ref=ppx_yo_dt_b_asin_image_o09_s00?ie=UTF8&th=1 (case)
+-[Case](https://www.amazon.com/gp/product/B07WPLDVQJ/ref=ppx_yo_dt_b_asin_image_o09_s00?ie=UTF8&th=1)
 
 <img src="https://m.media-amazon.com/images/I/71J3ZZPHEgL._AC_SX679_.jpg"
      alt="Raspberry Camera"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
  
-- https://www.amazon.com/dp/B07BK1QZ2L?psc=1&ref=ppx_yo2ov_dt_b_product_details (camera)
+- [Infared Camera](https://www.amazon.com/dp/B07BK1QZ2L?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 
 ### Software
 - `curl https://pyenv.run | bash (pyenv installation)`
