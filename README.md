@@ -110,15 +110,15 @@ Once you have done that you can insert the sd card into your computer and launch
 ## Assembly
 If you are using the case provided in this tutorial and the battery you will need to make some minor adjustments to the legs of the battery
 1. Attach camera to Pi via the camera port. Top open it gently grip the black sides of the port and pull up. This will expose a small opening where you will place the camera strip matching stripes to stripes. If you are using the battery it might be better to do this part before placing the battery
+<p float="left">
+	<img src="static/cameraport.gif"
+	     alt="cameraport"
+	     style="float: left; width: 20%; height: 50%" />
 
-<img src="static/cameraport.gif"
-     alt="cameraport"
-     style="float: left; width: 50%; height: 50%" />
-
-<img src="static/camerapi.png"
-     alt="camerapi"
-     style="float: left; width: 50%; height: 50%;" />
-
+	<img src="static/camerapi.png"
+	     alt="camerapi"
+	     style="float: left; width: 50%; height: 50%;" />
+<p>
 ## First Set Up
 This tutorial shows us how to set up our Pi using a monitor. We will later go into ssh-ing into the pi and using the already installed vnc viewer server. But you can edit the config files so that you are free to ssh before the initial set up check it out! [ssh into pi before set up](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html)
 
