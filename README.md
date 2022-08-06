@@ -23,7 +23,7 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
      alt="Raspberry Battery"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
  
-- [https://www.amazon.com/gp/product/B0788B9YGW/ref=ppx_yo_dt_b_asin_image_o01_s00?ie=UTF8&psc=1] (battery)
+- [Battery](https://www.amazon.com/gp/product/B0788B9YGW/ref=ppx_yo_dt_b_asin_image_o01_s00?ie=UTF8&psc=1)
 
 
 <img src="https://m.media-amazon.com/images/I/61Gx0BEe+oL._AC_SX679_.jpg"
