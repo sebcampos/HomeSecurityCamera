@@ -70,4 +70,8 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 - opencv-python (install into venv)
 
 # Instalation Guide
-
+- Visit Raspberry Pi website to download an imager for your operating system [Download from here](https://www.raspberrypi.com/software/)
+- Once you have done that you can insert the sd card into your computer and launch the application
+<img src="https://assets.raspberrypi.com/static/md-bfd602be71b2c1099b91877aed3b41f0.png"
+     alt="Installing OS"
+     style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
