@@ -23,6 +23,11 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 
 - [MicroSD with adaptor](https://www.amazon.com/SAMSUNG-Select-microSDXC-Adapter-MB-ME64HA/dp/B08879MG33/ref=sr_1_2?crid=2O7IZ8MNPYOHE&keywords=Samsung’s+64GB+EVO+Select&qid=1659810940&s=electronics&sprefix=samsung+s+64gb+evo+select+%2Celectronics%2C255&sr=1-2)
 
+<img src="https://m.media-amazon.com/images/I/61pj7sQU3qL._AC_SX679_.jpg"
+     alt="Raspberry Pi Charger"
+     style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
+
+- [Raspberry Pi 4 Model B Official PSU, USB-C, 5.1V, 3A, US Plug, Black SC0218 Pi Accessory (KSA-15E-051300HU)](https://www.amazon.com/gp/product/B07W8XHMJZ/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
 
 <img src="https://m.media-amazon.com/images/I/617iRYqu6+L._AC_SX679_.jpg"
      alt="Raspberry Pi"
@@ -38,11 +43,6 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 
 
 #### Optional Hardware
-<img src="https://m.media-amazon.com/images/I/61pj7sQU3qL._AC_SX679_.jpg"
-     alt="Raspberry Pi Charger"
-     style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
-
-- [Raspberry Pi 4 Model B Official PSU, USB-C, 5.1V, 3A, US Plug, Black SC0218 Pi Accessory (KSA-15E-051300HU)](https://www.amazon.com/gp/product/B07W8XHMJZ/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
 
 <img src="https://m.media-amazon.com/images/I/51rQwXKnJSL._AC_SX679_.jpg"
      alt="Raspberry Battery"
