@@ -27,34 +27,34 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 <img src="https://m.media-amazon.com/images/I/41miUeFB0ML._AC_SX679_.jpg"
      alt="raspberytohdmi"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
-
+</p>
 - [Connect Pi to monitor HDMI](https://www.amazon.com/Adapter-Graphic-Samsung-Android-Function/dp/B09PQL1MBQ/ref=sr_1_5?crid=2SW1PZQVRATWY&keywords=hdmi+to+micro+usb&qid=1659813415&sprefix=hdmi+to+micro+usb%2Caps%2C120&sr=8-5)
-
+<p align="middle">
 <img src="https://m.media-amazon.com/images/I/81BjdWu7D+L._AC_SX679_.jpg"
      alt="MicroSD with adaptor"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
-
+</p>
 - [MicroSD with adaptor](https://www.amazon.com/SAMSUNG-Select-microSDXC-Adapter-MB-ME64HA/dp/B08879MG33/ref=sr_1_2?crid=2O7IZ8MNPYOHE&keywords=Samsung’s+64GB+EVO+Select&qid=1659810940&s=electronics&sprefix=samsung+s+64gb+evo+select+%2Celectronics%2C255&sr=1-2)
-
+<p align="middle">
 <img src="https://m.media-amazon.com/images/I/61pj7sQU3qL._AC_SX679_.jpg"
      alt="Raspberry Pi Charger"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
-
+</p>
 - [Raspberry Pi 4 Model B Official PSU, USB-C, 5.1V, 3A, US Plug, Black SC0218 Pi Accessory (KSA-15E-051300HU)](https://www.amazon.com/gp/product/B07W8XHMJZ/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
-
+<p align="middle">
 <img src="https://m.media-amazon.com/images/I/617iRYqu6+L._AC_SX679_.jpg"
      alt="Raspberry Pi"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
-
+</p>
 - [Raspberry Pi 4 Model B 2019 Quad Core 64 Bit WiFi Bluetooth (4GB)](https://www.amazon.com/gp/product/B07TC2BK1X/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
-
+<p align="middle">
 <img src="https://m.media-amazon.com/images/I/71J3ZZPHEgL._AC_SX679_.jpg"
      alt="Raspberry Camera"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
- 
+</p>
 - [Infared Camera](https://www.amazon.com/dp/B07BK1QZ2L?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 
-</p>
+
 
 ### Optional Hardware
 
