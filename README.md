@@ -83,11 +83,11 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 
 <img src="static/sd-adapter.gif"
      alt="img"
-     style="float: left; width: 100%; height: 100%; margin-right: 10px;" />
+     style="float: left; width: 100%; height: 50%; margin-right: 10px;" />
 
 <img src="static/insert-sd.gif"
      alt="img"
-     style="float: left; width: 100%; height: 100%; margin-right: 10px;" />
+     style="float: left; width: 100%; height: 50%; margin-right: 10px;" />
 
 <img src="static/imger.gif"
      alt="img"
