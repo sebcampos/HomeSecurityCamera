@@ -9,7 +9,8 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 ## Requirements
 ### Hardware
 - Raspberry pi 4
-- OS (or raspberry equivalent): 
+- OS (or raspberry equivalent):
+
 	Distributor ID:	Debian
 	Description:	Debian GNU/Linux 11 (bullseye)
 	Release:	11
