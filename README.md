@@ -103,7 +103,7 @@ Once you have done that you can insert the sd card into your computer and launch
 3. Select the write button and wait for you os to download!
 4. Once done, safely eject your sd adapter. Remove the SD card from the adapter and place into the raspberry pi
 
-<img src="static/insert-sd.gif"
+<img src="https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/0c178297ba71f04daf912bc76fd3e1a731472374/en/images/pi-sd.png"
      alt="raspsd"
      style="float: left; width: 50%; height: 50%; margin-right: 10px;" />
 
