@@ -10,12 +10,12 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 ### Hardware
 - Raspberry pi 4
 - OS (or raspberry equivalent):
-
+```
 	Distributor ID:	Debian
 	Description:	Debian GNU/Linux 11 (bullseye)
 	Release:	11
 	Codename:	bullseye
-
+```
 ### Software
 - `curl https://pyenv.run | bash (pyenv installation)`
 - python 3.8.8 (we will install with virual penv)
