@@ -16,6 +16,15 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 	Release:	11
 	Codename:	bullseye
 ```
+https://www.amazon.com/SAMSUNG-Select-microSDXC-Adapter-MB-ME64HA/dp/B08879MG33/ref=sr_1_2?crid=2O7IZ8MNPYOHE&keywords=Samsung’s+64GB+EVO+Select&qid=1659810940&s=electronics&sprefix=samsung+s+64gb+evo+select+%2Celectronics%2C255&sr=1-2
+
+<img src="https://m.media-amazon.com/images/I/81BjdWu7D+L._AC_SX679_.jpg"
+     alt="MicroSD with adaptor"
+     style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
+
+- [MicroSD with adaptor](https://www.amazon.com/SAMSUNG-Select-microSDXC-Adapter-MB-ME64HA/dp/B08879MG33/ref=sr_1_2?crid=2O7IZ8MNPYOHE&keywords=Samsung’s+64GB+EVO+Select&qid=1659810940&s=electronics&sprefix=samsung+s+64gb+evo+select+%2Celectronics%2C255&sr=1-2)
+
+
 <img src="https://m.media-amazon.com/images/I/617iRYqu6+L._AC_SX679_.jpg"
      alt="Raspberry Pi"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
