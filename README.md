@@ -54,7 +54,10 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 
 
 ### Optional Hardware
-SEE ASSEMBLY
+
+#### SEE ASSEMBLY
+
+
 <img src="https://m.media-amazon.com/images/I/51rQwXKnJSL._AC_SX679_.jpg"
      alt="Raspberry Battery"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
@@ -100,13 +103,17 @@ Once you have done that you can insert the sd card into your computer and launch
 3. Select the write button and wait for you os to download!
 4. Once done, safely eject your sd adapter. Remove the SD card from the adapter and place into the raspberry pi
 
-<img src="https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/0c178297ba71f04daf912bc76fd3e1a731472374/en/images/pi-sd.png"
+<img src="static/insert-sd.gif"
      alt="raspsd"
      style="float: left; width: 50%; height: 50%; margin-right: 10px;" />
 
 ## Assembly
-If you are using the case provided in this tutorial and the battery you will need to make some minor adjustments
+If you are using the case provided in this tutorial and the battery you will need to make some minor adjustments to the legs of the battery
+1. Attach camera to Pi via the camera port. Top open it gently grip the black sides of the port and pull up. This will expose a small opening where you will place the camera strip matching stripes to stripes. If you are using the battery it might be better to do this part before placing the battery
 
+<img src="static/cameraport.gif"
+     alt="cameraport"
+     style="float: left; width: 50%; height: 50%; margin-right: 10px;" />
 
 ## First Set Up
 This tutorial shows us how to set up our Pi using a monitor. We will later go into ssh-ing into the pi and using the already installed vnc viewer server. But you can edit the config files so that you are free to ssh before the initial set up check it out! [ssh into pi before set up](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html)
