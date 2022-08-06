@@ -164,7 +164,7 @@ This tutorial shows us how to set up our Pi using a monitor. We will later go in
 	     style="width: 50%; height: 20%;" />
 </p>	
 
-- SSelect Preferences from the top left corner dropdown then Raspberry Pi Config
+- Select Preferences from the top left corner dropdown then Raspberry Pi Config
 
 <p align="middle">
 	<img src="static/editinterface.png"
