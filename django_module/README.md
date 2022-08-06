@@ -1,4 +1,4 @@
-# zsh and oh-my-zsh
+# zsh and oh-my-zsh (Optional)
 
 zsh and oh-my-zsh are not mandatory dependencies but do make the terminal a bit easier to navigate.
 To install go ahead and run the following commands in the terminal.
@@ -28,10 +28,21 @@ in the shell enter the following commands:
 cd
 mkdir Projects
 cd Projects
+mkdir djangoapp
 ```
-This will make a new directory/folder in your Home folder and move into that directory.
-Now lets install pyenv to help us manage different versions of python when we need to
+This will make a new directory/folder in your Home folder and move into that directory. After which it will
+create an empty directory in the current Projects folder called djangoapp
 
-`curl https://pyenv.run | bash`
+
+Now lets install pyenv and add it to our PATH to help us manage different versions of python when we need to
+```
+curl https://pyenv.run | bash
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
+next we will create a venv for python version 3.8.8 using pyenv (this might take a minute)
+
+`pyenv install 3.8.8`
 
 Now lets install a version of python that will work with tensorflow and Django, python 
