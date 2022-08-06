@@ -54,7 +54,7 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 
 
 ### Optional Hardware
-
+SEE ASSEMBLY
 <img src="https://m.media-amazon.com/images/I/51rQwXKnJSL._AC_SX679_.jpg"
      alt="Raspberry Battery"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
@@ -78,6 +78,7 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 - opencv-python (install into venv)
 
 # Instalation Guide
+## Pi OS
 1 .Visit Raspberry Pi website to download an imager for your operating system [Download from here](https://www.raspberrypi.com/software/)
 Once you have done that you can insert the sd card into your computer and launch the application
 
@@ -102,4 +103,14 @@ Once you have done that you can insert the sd card into your computer and launch
 <img src="https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/0c178297ba71f04daf912bc76fd3e1a731472374/en/images/pi-sd.png"
      alt="raspsd"
      style="float: left; width: 50%; height: 50%; margin-right: 10px;" />
+
+## Assembly
+If you are using the case provided in this tutorial and the battery you will need to make some minor adjustments
+
+
+## First Set Up
+This tutorial shows us how to set up our Pi using a monitor. We will later go into ssh-ing into the pi and using the already installed vnc viewer server. But you can edit the config files so that you are free to ssh before the initial set up check it out! [ssh into pi before set up](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html)
+
+1. Once you have inserted the sd card you can plug your raspberry Pi into a power unit then using your hdmi adapter you can plug it into the moniter. Using the USB slots you can plug in your mouse and key board.
+2. 
 
