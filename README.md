@@ -99,7 +99,6 @@ Once you have done that you can insert the sd card into your computer and launch
 <img src="static/sd-adapter.gif"
      alt="sdadapter"
      style="float: left; width: 30%; height: 20%; margin-right: 10px;" />
-
 <img src="static/insert-sd.gif"
      alt="insertingadapter"
      style="float: left; width: 30%; height: 20%; margin-right: 10px;" />
