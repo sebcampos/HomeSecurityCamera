@@ -80,7 +80,7 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 - Once you have done that you can insert the sd card into your computer and launch the application
 
 <img src="static/imger.gif"
-     alt="Raspberry Case"
-     style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
+     alt="img"
+     style="float: left; width: 50%; height: 50%; margin-right: 10px;" />
      
 - Click on Choose storage and select your microsd
