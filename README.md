@@ -81,6 +81,6 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 
 <img src="static/imger.gif"
      alt="img"
-     style="float: left; width: 75%; height: 75%; margin-right: 10px;" />
+     style="float: left; width: 100%; height: 100%; margin-right: 10px;" />
      
 - Click on Choose storage and select your microsd
