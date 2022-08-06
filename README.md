@@ -78,20 +78,28 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 - opencv-python (install into venv)
 
 # Instalation Guide
-- Visit Raspberry Pi website to download an imager for your operating system [Download from here](https://www.raspberrypi.com/software/)
-- Once you have done that you can insert the sd card into your computer and launch the application
+1 .Visit Raspberry Pi website to download an imager for your operating system [Download from here](https://www.raspberrypi.com/software/)
+Once you have done that you can insert the sd card into your computer and launch the application
 
 <img src="static/sd-adapter.gif"
-     alt="img"
+     alt="sdadapter"
      style="float: left; width: 30%; height: 20%; margin-right: 10px;" />
 
 <img src="static/insert-sd.gif"
-     alt="img"
+     alt="insertingadapter"
      style="float: left; width: 30%; height: 20%; margin-right: 10px;" />
 
+
+2. Select Your Desired OS, I am using Raspberry Pi OS (64-bit) with desktop for this project and the storage device you inserted
 <img src="static/imger.gif"
-     alt="img"
+     alt="imger"
      style="float: left; width: 100%; height: 100%; margin-right: 10px;" />
-     
-1. Select Your Desired OS, I am using Raspberry Pi OS (64-bit) with desktop for this project
-2. Select your storage device (SD card you inserted)
+
+
+3. Select the write button and wait for you os to download!
+4. Once done, safely eject your sd and place it into the raspberry pi.
+
+<img src="https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/0c178297ba71f04daf912bc76fd3e1a731472374/en/images/pi-sd.png"
+     alt="raspsd"
+     style="float: left; width: 50%; height: 50%; margin-right: 10px;" />
+
