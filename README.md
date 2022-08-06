@@ -65,18 +65,20 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 
 #### SEE ASSEMBLY
 
-
+<p align="middle">
 <img src="https://m.media-amazon.com/images/I/51rQwXKnJSL._AC_SX679_.jpg"
      alt="Raspberry Battery"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
- 
+</p>
+
 - [Battery](https://www.amazon.com/gp/product/B0788B9YGW/ref=ppx_yo_dt_b_asin_image_o01_s00?ie=UTF8&psc=1)
 
-
+<p align="middle">
 <img src="https://m.media-amazon.com/images/I/61Gx0BEe+oL._AC_SX679_.jpg"
      alt="Raspberry Case"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
- 
+</p>
+
 - [Case](https://www.amazon.com/gp/product/B07WPLDVQJ/ref=ppx_yo_dt_b_asin_image_o09_s00?ie=UTF8&th=1)
 
 
@@ -92,7 +94,7 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 ## Pi OS
 1 .Visit Raspberry Pi website to download an imager for your operating system [Download from here](https://www.raspberrypi.com/software/)
 Once you have done that you can insert the sd card into your computer and launch the application
-
+<p align="middle">
 <img src="static/sd-adapter.gif"
      alt="sdadapter"
      style="float: left; width: 30%; height: 20%; margin-right: 10px;" />
@@ -100,20 +102,23 @@ Once you have done that you can insert the sd card into your computer and launch
 <img src="static/insert-sd.gif"
      alt="insertingadapter"
      style="float: left; width: 30%; height: 20%; margin-right: 10px;" />
-
+</p>
 
 2. Select Your Desired OS, I am using Raspberry Pi OS (64-bit) with desktop for this project and the storage device you inserted
+<p align="middle">
 <img src="static/imger.gif"
      alt="imger"
      style="float: left; width: 100%; height: 100%; margin-right: 10px;" />
-
+</p>
 
 3. Select the write button and wait for you os to download!
 4. Once done, safely eject your sd adapter. Remove the SD card from the adapter and place into the raspberry pi
 
+<p align="middle">
 <img src="https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/0c178297ba71f04daf912bc76fd3e1a731472374/en/images/pi-sd.png"
      alt="raspsd"
      style="float: left; width: 50%; height: 50%; margin-right: 10px;" />
+</p>
 
 ## Assembly
 If you are using the case provided in this tutorial and the battery you will need to make some minor adjustments to the legs of the battery
