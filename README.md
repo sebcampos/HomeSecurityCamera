@@ -162,13 +162,28 @@ This tutorial shows us how to set up our Pi using a monitor. We will later go in
 	     alt="editconfig"
 	     align="top"
 	     style="width: 50%; height: 20%;" />
+</p>	
+
+- SSelect Preferences from the top left corner dropdown then Raspberry Pi Config
+
+<p align="middle">
 	<img src="static/editinterface.png"
 	     alt="editinterface"
 	     align="top"
 	     style="width: 50%; height: 20%;" />
+</p>
+
+- Click on the interfaces tab
+
+<p align="middle">
 	<img src="static/allowsshvnc.png"
 	     alt="allowsshvnc"
 	     align="top"
 	     style="width: 50%; height: 20%;" />
 </p>
 
+- Enable SSH and VNC
+
+## Next steps
+Now that you are all set up with your Raspberry pi we can start setting up all our dependencies and the http server!
+There are more instructions in the README in the django_module folder
