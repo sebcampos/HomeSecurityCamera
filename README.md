@@ -1,4 +1,4 @@
-# Home Security
+# Home Security Object Detection
 
 ## Description
 This repo contains a project using a Raspberry pi, Django and a Tensorflow
@@ -16,7 +16,6 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 	Release:	11
 	Codename:	bullseye
 ```
-https://www.amazon.com/SAMSUNG-Select-microSDXC-Adapter-MB-ME64HA/dp/B08879MG33/ref=sr_1_2?crid=2O7IZ8MNPYOHE&keywords=Samsung’s+64GB+EVO+Select&qid=1659810940&s=electronics&sprefix=samsung+s+64gb+evo+select+%2Celectronics%2C255&sr=1-2
 
 <img src="https://m.media-amazon.com/images/I/81BjdWu7D+L._AC_SX679_.jpg"
      alt="MicroSD with adaptor"
@@ -31,6 +30,13 @@ https://www.amazon.com/SAMSUNG-Select-microSDXC-Adapter-MB-ME64HA/dp/B08879MG33/
 
 - [Raspberry Pi 4 Model B 2019 Quad Core 64 Bit WiFi Bluetooth (4GB)](https://www.amazon.com/gp/product/B07TC2BK1X/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 
+<img src="https://m.media-amazon.com/images/I/71J3ZZPHEgL._AC_SX679_.jpg"
+     alt="Raspberry Camera"
+     style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
+ 
+- [Infared Camera](https://www.amazon.com/dp/B07BK1QZ2L?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+
+#### Optional
 <img src="https://m.media-amazon.com/images/I/61pj7sQU3qL._AC_SX679_.jpg"
      alt="Raspberry Pi Charger"
      style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
@@ -50,11 +56,7 @@ https://www.amazon.com/SAMSUNG-Select-microSDXC-Adapter-MB-ME64HA/dp/B08879MG33/
  
 - [Case](https://www.amazon.com/gp/product/B07WPLDVQJ/ref=ppx_yo_dt_b_asin_image_o09_s00?ie=UTF8&th=1)
 
-<img src="https://m.media-amazon.com/images/I/71J3ZZPHEgL._AC_SX679_.jpg"
-     alt="Raspberry Camera"
-     style="float: left; width: 25%; height: 25%; margin-right: 5px;" />
- 
-- [Infared Camera](https://www.amazon.com/dp/B07BK1QZ2L?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+
 
 ### Software
 - `curl https://pyenv.run | bash (pyenv installation)`
