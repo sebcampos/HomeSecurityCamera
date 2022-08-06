@@ -17,20 +17,27 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 	Codename:	bullseye
 ```
 
+
+
+<img src="https://m.media-amazon.com/images/I/51rQwXKnJSL._AC_SX679_.jpg"
+     alt="Raspberry Battery"
+     style="float: left; margin-right: 5px;" />
+ 
+- https://www.amazon.com/gp/product/B0788B9YGW/ref=ppx_yo_dt_b_asin_image_o01_s00?ie=UTF8&psc=1 (battery)
+
+
 <img src="https://m.media-amazon.com/images/I/61Gx0BEe+oL._AC_SX679_.jpg"
-     alt="Raspberry Camera"
-     style="float: left; margin-right: 10px;" />
+     alt="Raspberry Case"
+     style="float: left; margin-right: 5px;" />
  
 - https://www.amazon.com/gp/product/B07WPLDVQJ/ref=ppx_yo_dt_b_asin_image_o09_s00?ie=UTF8&th=1 (case)
 
 <img src="https://m.media-amazon.com/images/I/71J3ZZPHEgL._AC_SX679_.jpg"
      alt="Raspberry Camera"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 5px;" />
  
 - https://www.amazon.com/dp/B07BK1QZ2L?psc=1&ref=ppx_yo2ov_dt_b_product_details (camera)
 
-
-- 
 ### Software
 - `curl https://pyenv.run | bash (pyenv installation)`
 - python 3.8.8 (we will install with virual penv)
