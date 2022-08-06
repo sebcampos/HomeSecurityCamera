@@ -1,5 +1,7 @@
 # Home Security Object Detection
-
+<img src="static/object-detection.gif"
+     alt="img"
+     style="float: center; width: 100%; height: 100%; margin-right: 10px;" />
 ## Description
 This repo contains a project using a Raspberry pi, Django and a Tensorflow
 pretrained Model to create a local webserver displaying camera footage 
@@ -79,8 +81,17 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 - Visit Raspberry Pi website to download an imager for your operating system [Download from here](https://www.raspberrypi.com/software/)
 - Once you have done that you can insert the sd card into your computer and launch the application
 
+<img src="static/sd-adapter.gif"
+     alt="img"
+     style="float: left; width: 100%; height: 100%; margin-right: 10px;" />
+
+<img src="static/insert-sd.gif"
+     alt="img"
+     style="float: left; width: 100%; height: 100%; margin-right: 10px;" />
+
 <img src="static/imger.gif"
      alt="img"
      style="float: left; width: 100%; height: 100%; margin-right: 10px;" />
      
-- Click on Choose storage and select your microsd
+1. Select Your Desired OS, I am using Raspberry Pi OS (64-bit) with desktop for this project
+2. Select your storage device (SD card you inserted)
