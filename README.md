@@ -15,6 +15,9 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 	Description:	Debian GNU/Linux 11 (bullseye)
 	Release:	11
 	Codename:	bullseye
+	
+	aarch64
+	Linux raspberrypi 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64 GNU/Linux
 ```
 
 <img src="https://m.media-amazon.com/images/I/81BjdWu7D+L._AC_SX679_.jpg"
@@ -66,4 +69,5 @@ from the raspberry pi. The camera feed is being augmented by the Tensorflow Obje
 - django (install into venv)
 - opencv-python (install into venv)
 
+# Instalation Guide
 
