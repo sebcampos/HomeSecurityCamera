@@ -7,7 +7,7 @@ regardless you will have to do some work in a few areas.
 First we will go into the static folder located in the path Administrator/static/js/stream.js. There you will repalce
 the placeholder <your_ip_address>:<your_port_number> with your Pis IP and port hosting the webserver
 
-Next we will start with the settings.py file. It is a file within the folder created for you when you ran
+Next we will ser with the settings.py file. It is a file within the folder created for you when you ran
 the django startproject command (not the django startapp one). It should have the same name as the parent folder.
 
 In your settings.py we need to whitelist your raspberry pi's IP as a valid host so that you can host it on your local network
@@ -34,7 +34,7 @@ I am keeping mine in the directory holding the setting.py file feel free to do t
 
 now that we have done this part lets try and run the server.
 
-`python manage.py runserver`
+`python3 manage.py runserver <your_ip_address>:8000` (we will be running the command this way as of now so that Javascript and the backend can comunicate)
 
 ![make_migrations](../static/make_migrations.png)
 
@@ -46,13 +46,17 @@ In the same directory as you manage.py and run the command displayed:
 
 I had a strange issue where the process hung. If it hangs go ahead and CNTR-C to exit then run the runserver command again
 
-`python manage.py runserver`
+`python3 manage.py runserver <your_ip_address>:8000`
 
 the warning should be gone.
 
 If you used the template from the repo you should be able to got to 
 
-http://127.0.0.1:8000/cam/
+
+## Final notes
+
+now we will start the server with a different version of the command
+python3 manage.py runserver<your_ip_address>:8000
 
 ![login_page](../static/login_page.png)
 
