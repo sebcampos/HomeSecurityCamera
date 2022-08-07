@@ -146,5 +146,23 @@ Now there is a new folder inside our SecurityCamera Project called LiveFeed.
 models.py helps us abstract data such as forms or users. Instead of writing database scripts we can use models to model real life data
 we can easily define a user with certain permissions, or a valid form to be taken from the front end. We will not be using models in this tutorial
 but its good to know!
+
 [More On Models](https://docs.djangoproject.com/en/4.0/topics/db/models/)
+
+admin.py is similar in that it holds models but these are only relevant to administrators
+
+[More On admin.py](https://docs.djangoproject.com/en/4.0/ref/contrib/admin/)
+
+tests.py is very usefull when running tests against your website. Test scenarios can ca nbe written for specific apps
+and then run through the manage.py interface
+
+[More On test.py](https://docs.djangoproject.com/en/4.0/topics/testing/overview/)
+
+Next up is apps.py which helps us set some configurations for our particular app
+
+[More On appys.py](https://docs.djangoproject.com/en/4.1/ref/applications/#application-configuration)
+
+Finally 
+
+We have views.py, This helps us display webpages/views from our application we will mainly be focusing on this portion for our project.
 
