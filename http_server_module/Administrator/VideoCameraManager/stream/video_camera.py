@@ -11,7 +11,7 @@ def start_thread() -> None:
     :return: void
     """
     variables.thread = threading.Thread(target=update_frame, args=())
-    variable.thread.daemon = True
+    variables.thread.daemon = True
     variables.thread.start()
 
 
