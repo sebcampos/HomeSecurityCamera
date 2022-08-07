@@ -107,7 +107,17 @@ while launching python in your djangoapp directory will use python 3.8.8
 Note that installing with pip will install to the python currently in scope.
 to install python dependencies to our 3.8.8 we need to be in that folder
 
+Now that this is completed its time to install django and tensorflow lite.
+Make sure you are in the djangoapp/ObjectDetection directory and run the following commands
+```
+python3 -m pip install tflite-runtime
+python3 -m pip install Django
+python3 -m pip install opencv-python
+```
 
+- tflite-runtime will be how we interact with a pretrained Tensorflow Object detection model
+- Django will be what we use to set up out webserver
+- opencv will be used to interact with the webcam
 
 
 
