@@ -26,6 +26,11 @@ notice how the path is between brackets. This means it is a list and we can add 
 
 ![static_dir](../static/static_dir.png)
 
+Next part in the setting.py that needs to be defined is the static directory. This is where we will hold all of our Javascript, Css and images
+I am keeping mine in the directory holding the setting.py file feel free to do the same. I am also leaving the static url as static.
+
+
+
 This is the django server structure with the and implemented tf object detection model and web interface.
 inside of the Administrator/VideoCameraManager app you will find a folder called `stream` This is a python module
 to manage our object detection and streaming.
