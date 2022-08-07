@@ -138,3 +138,13 @@ It is an empty file that we will leave alone. The manage.py file we will use alo
 We will do this by using the manage.py file and the command startapp as below (make sure you are in the same directory as manage.py when you run this command):
 
 `python manage.py startapp LiveFeed`
+
+Now there is a new folder inside our SecurityCamera Project called LiveFeed.
+
+![livefeedapp](../static/livefeedapp.png)
+
+models.py helps us abstract data such as forms or users. Instead of writing database scripts we can use models to model real life data
+we can easily define a user with certain permissions, or a valid form to be taken from the front end. We will not be using models in this tutorial
+but its good to know!
+[More On Models](https://docs.djangoproject.com/en/4.0/topics/db/models/)
+
