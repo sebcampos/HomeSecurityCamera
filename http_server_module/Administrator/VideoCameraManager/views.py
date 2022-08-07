@@ -46,10 +46,12 @@ def update_stream(request):
     stream.add_to_tracking(body["labels"])
     return HttpResponse(200)
 
-
+"""
+uncomment if you installed pijuice
 @login_required
 def battery_stream(request):
     return JsonResponse({"charge_level" :stream.battery.check_charge_level()}) 
+"""
 
 @xframe_options_exempt
 @login_required
