@@ -93,7 +93,7 @@ function submitUpdate()
 	let xhr = new XMLHttpRequest();
 	var csrftoken = document.cookie.split("=")[1];
 	var labels = document.getElementById("tracking_list").textContent;
-	xhr.open("POST", "<your_ip_address>:<your_port_number>/cam/view/update");
+	xhr.open("POST", "update");
 	xhr.setRequestHeader("Accept", "application/json");
 	xhr.setRequestHeader("Content-Type", "application/json");
 	xhr.setRequestHeader("X-CSRFToken", csrftoken);
@@ -119,7 +119,7 @@ function updateBatteryLife()
 {
 	let xhr = new XMLHttpRequest();
 	var csrftoken = document.cookie.split("=")[1];
-	xhr.open("GET", "http://<your_ip_address>:<your_port_number>/cam/view/battery");
+	xhr.open("GET", "battery");
 	xhr.setRequestHeader("Accept", "application/json");
 	xhr.setRequestHeader("Content-Type", "application/json");
 	xhr.setRequestHeader("X-CSRFToken", csrftoken);
