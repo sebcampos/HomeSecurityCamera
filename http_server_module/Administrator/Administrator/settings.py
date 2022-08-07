@@ -20,12 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-idtq8ov$q73buo3k(g8ldf6o)g#vqz2kz+)vh4x+5(#*&t!%n_'
+SECRET_KEY = ######################################################
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["192.168.7.207"]
+ALLOWED_HOSTS = [#########] # <-- your pi's IP address here
 
 
 # Application definition
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'Administrator.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / "VideoCameraManager" /"templates", BASE_DIR / "Resume" / "templates"],
+        'DIRS': [BASE_DIR / "VideoCameraManager" /"templates"], # <---  add the path to the directory where you want to hold your html templates
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -115,11 +115,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 STATICFILES_DIRS = [
-    BASE_DIR / "Administrator" / "static"
+    BASE_DIR / "Administrator" / "static"  # <--- path to your static folder ( javascript, css, images ) 
 ]
 
 
-STATIC_URL = 'static/'
+STATIC_URL = 'static/'  # <--- define your static url
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
