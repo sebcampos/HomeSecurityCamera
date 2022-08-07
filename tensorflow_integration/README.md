@@ -17,9 +17,9 @@ The terminal will display a interface, use the arrow keys to navigate to the `In
 
 Then, select enable Legacy Camera support
 
-![enable-camera1](../static/enable-legacy-camera-support1)
+![enable-camera1](../static/enable-legacy-camera-support1.png)
 
-![enable-camera2](../static/enable-legacy-camera-support2)
+![enable-camera2](../static/enable-legacy-camera-support2.png)
 
 
 Finnaly reboot and we are ready to test the camera!
