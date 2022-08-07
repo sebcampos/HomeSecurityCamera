@@ -105,9 +105,6 @@ def camera_stream(request) -> StreamingHttpResponse:
     :return: StreamingHttpResponse
     """
     try:
-        # start the video and thread related to this video
-        stream.video_camera.start_video()
-        stream.video_camera.start_thread()
         return StreamingHttpResponse(stream.video_camera.feed(),
                                      content_type="multipart/x-mixed-replace;boundary=frame")
     except:
