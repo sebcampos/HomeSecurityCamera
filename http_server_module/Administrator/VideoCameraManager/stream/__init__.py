@@ -1,7 +1,8 @@
 import atexit
 from . import utils
 from . import video_camera
-from . import battery
+# uncomment if you installed pijuice
+# from . import battery
 
 
 
