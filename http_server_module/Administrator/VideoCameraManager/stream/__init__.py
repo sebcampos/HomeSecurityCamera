@@ -66,7 +66,7 @@ utils.reset_recording_frame_count()
 utils.init_interpreter()
 
 # begin the log file 
-utils.write(f"[{utils.get_date_and_time()}] START", f"{utils.get_date()}", log_line=True)
+utils.write(f"[{utils.get_date_and_time()}] START", f"{utils.get_date()}", log_file=True)
 
 # start the video and thread related to this video
 video_camera.start_video()
