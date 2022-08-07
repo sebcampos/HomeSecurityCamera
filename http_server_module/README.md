@@ -31,6 +31,8 @@ I am keeping mine in the directory holding the setting.py file feel free to do t
 
 now that we have done this part lets try and run the server.
 
+`python manage.py runserver`
+
 ![make_migrations](../static/make_migrations.png)
 
 if you see the message above not to worry.
@@ -39,3 +41,26 @@ In the same directory as you manage.py and run the command displayed:
 
 `python manage.py migrate`
 
+I had a strange issue where the process hung. If it hangs go ahead and CNTR-C to exit then run the runserver command again
+
+`python manage.py runserver`
+
+the warning should be gone.
+
+If you used the template from the repo you should be able to got to 
+
+http://127.0.0.1:8000/cam/
+
+![login_page](../static/login_page.png)
+
+to find a login page. Only you wont be able to log in.
+
+close the server with CNTRL-C and run the following command
+
+`python manage.py createsuperuser`
+
+this will prompt you to create a super user. 
+
+If you are not using the template above youll still want to do this portion
+
+Once you have created the super user go ahead and login.
