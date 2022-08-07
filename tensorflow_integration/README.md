@@ -69,4 +69,4 @@ Success! looks like we have successfully downloaded our machine learning softwar
 ![object_detection_test](../static/object_detection_test.png)
 
 Now that we are all set up we will set up a simple login wepage, and user interface to interact with the model
-for the next steps head on over to the server folder
+for the next steps head on over to the http_server_module
