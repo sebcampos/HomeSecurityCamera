@@ -52,5 +52,15 @@ once inside we will download the two files from this repo using
 wget https://raw.githubusercontent.com/sebcampos/HomeSecurityCamera/master/tensorflow_integration/model/detect.tflite
 wget https://raw.githubusercontent.com/sebcampos/HomeSecurityCamera/master/tensorflow_integration/model/labelmap.txt
 ```
+Now that this is done lets move up one directory and download out object detection test
 
+```
+cd ..
+wget https://raw.githubusercontent.com/sebcampos/HomeSecurityCamera/master/tensorflow_integration/object_detection_test.py
+```
+now we can run the script. you should run the script from the same directory containing your `model` folder.
+The file looks for a the model folder then opensthe detect.tflite and labelmap.txt files.
 
+```
+python object_detection_test.py
+```
