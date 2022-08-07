@@ -67,3 +67,6 @@ python object_detection_test.py
 Success! looks like we have successfully downloaded our machine learning software and video capture software.
 
 ![object_detection_test](../static/object_detection_test.png)
+
+Now that we are all set up we will set up a simple login wepage, and user interface to interact with the model
+for the next steps head on over to the server folder
