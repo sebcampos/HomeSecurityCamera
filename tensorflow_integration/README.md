@@ -49,7 +49,7 @@ The we will move into the new model folder with the command cd
 
 once inside we will download the two files from this repo using
 ```
-wget https://github.com/sebcampos/HomeSecurityCamera/blob/master/tensorflow_integration/model/detect.tflite?raw=true
+wget  https://raw.githubusercontent.com/sebcampos/HomeSecurityCamera/master/tensorflow_integration/model/detect.tflite?raw=true
 wget https://raw.githubusercontent.com/sebcampos/HomeSecurityCamera/master/tensorflow_integration/model/labelmap.txt
 ```
 
