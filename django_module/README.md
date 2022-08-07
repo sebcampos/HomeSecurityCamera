@@ -127,6 +127,7 @@ In our venv we will run the command (I chose to name the project SecurityCamera 
 `python3 -m django startproject SecurityCamera`
 
 This will create a new django web application template for us.
+
 ![djangostructure](../static/djangostructure.png)
 
 
