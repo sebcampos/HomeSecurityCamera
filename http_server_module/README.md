@@ -71,3 +71,7 @@ this will prompt you to create a super user.
 If you are not using the template above youll still want to do this portion
 
 Once you have created the super user go ahead and login.
+
+Now that you have logged in go ahead and add an object in this case i will add myself and walk by
+
+
