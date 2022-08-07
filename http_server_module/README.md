@@ -11,8 +11,8 @@ In your settings.py we need to whitelist your raspberry pi's IP as a valid host 
 
 ![ip_adress](../static/ip_adress.png)
 
-change the list above from [#######] to [1.4.26.452] <- your pi's ip
-You can also whitelist mutiple hosts [ip1, ip2]
+change the list above from [#######] to ["1.4.26.452"] <- your pi's ip
+You can also whitelist mutiple hosts ["ip1", "ip2"]
 
 
 Next in the same file we will designate a folder where our html templates will be held.
@@ -20,17 +20,19 @@ Next in the same file we will designate a folder where our html templates will b
 ![templates_directory](../static/templates_directory.png)
 
 Notice how we are using the BASE_DIR variable which relates the the base folder of our entire project.
-Same folder as the manage.py. we use the "/"  with out quotes to represent a subfolder. In this case I am keeping the template html files
+Same folder as the manage.py. We use the "/"  without quotes to represent a subfolder. In this case I am keeping the template html files
 for my VideoCameraManager app within my VideoCameraManager app, so the path is` BASE DIR /"VideoCameraManager" /"templates"` .
 notice how the path is between brackets. This means it is a list and we can add other template directories to that list as we see fit.
 
 ![static_dir](../static/static_dir.png)
 
-Next part in the setting.py that needs to be defined is the static directory. This is where we will hold all of our Javascript, Css and images
-I am keeping mine in the directory holding the setting.py file feel free to do the same. I am also leaving the static url as static.
+Next part in the setting.py that needs to be defined is the static directory. This is where we will hold all of our Javascript, Css and images folders
+I am keeping mine in the directory holding the setting.py file feel free to do the same. I am also leaving the static url as "static/".
 
+now that we have done this part lets try and run the server.
 
+![make_migrations](../static/make_migrations.png)
 
-This is the django server structure with the and implemented tf object detection model and web interface.
-inside of the Administrator/VideoCameraManager app you will find a folder called `stream` This is a python module
-to manage our object detection and streaming.
+if you see the message above not to worry. 
+In the same directory as you manage.py go
+
