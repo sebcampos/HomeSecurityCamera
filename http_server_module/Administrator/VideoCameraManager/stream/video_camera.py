@@ -4,24 +4,45 @@ from . import variables
 from . import utils
 
 
-def start_thread():
+def start_thread() -> None:
+    """
+    Creates a thread using the threading module invoking the update_frame method
+    as its target. Then saves this thread into our variables.thread variable.
+    :return: void
+    """
     variables.thread = threading.Thread(target=update_frame, args=())
     variables.thread.start()
 
 
-def start_video():
+def start_video() -> None:
+    """
+    Starts the video camera and saves it in our variables
+    object along with its related width and height
+    :return: void
+    """
     video = cv2.VideoCapture(0)
     variables.video_width = video.get(cv2.CAP_PROP_FRAME_WIDTH)
     variables.video_height = video.get(cv2.CAP_PROP_FRAME_HEIGHT)
     variables.video = video
 
 
-def format_frame(frame):
+def format_frame(frame: list) -> bytes:
+    """
+    This method formats the array into
+    bytes in the form of a .jpg image
+    :param frame: array from the cv2 read method
+    :return: jpg bytes
+    """
     _, jpg = cv2.imencode(".jpg", frame)
     return jpg.tobytes()
 
 
-def feed():
+def feed() -> bytes:
+    """
+    This returns a stream of bytes in the
+    form of a jpeg for the iframe feed
+    :return: bytes
+    """
     while utils.get_thread().is_alive():
         frame = utils.get_main_frame()
         frame = format_frame(frame)
@@ -29,26 +50,39 @@ def feed():
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
 
 
-def check_track_list(label):
+def check_track_list(label: str) -> bool:
+    """
+    This method checks the track list variable to see if the current label should
+    be tracked. If so it will log the start and begin a recording, or reset the recording counter
+    :param label:
+    :return:
+    """
     if utils.get_recording_status() and utils.get_recording_frame_count() <= 0:
         end_recording()
         utils.write(f"[{utils.get_date_and_time()}] recording ended", utils.get_date(), log_line=True)
-
-    if label in utils.get_track_list() and utils.get_recording_status() == False:
+        return False
+    if label in utils.get_track_list() and utils.get_recording_status() is False:
         start_recording()
         utils.write(f"[{utils.get_date_and_time()}] recording started", utils.get_date(), log_line=True)
         return True
-    elif label in utils.get_track_list() and utils.get_recording_status() == True:
+    elif label in utils.get_track_list() and utils.get_recording_status() is True:
         utils.reset_recording_frame_count()
         return True
-    elif label not in utils.get_track_list() and utils.get_recording_status() == True:
+    elif label not in utils.get_track_list() and utils.get_recording_status() is True:
         utils.decrement_recording_frame_count()
         return False
     else:
         return False
 
 
-def start_recording():
+def start_recording() -> None:
+    """
+    This method when invoked begins a recording
+    with the name of the recording being the current date and time.
+    it is saved to our variables.recorder and we set the recording status
+    to True
+    :return: void
+    """
     size = (int(utils.get_video_width()), int(utils.get_video_height()))
     variables.recorder = cv2.VideoWriter(
         f"{utils.get_video_log_dir()}{utils.get_date_and_time()}.avi",
@@ -59,13 +93,25 @@ def start_recording():
     utils.set_recording_status(True)
 
 
-def end_recording():
+def end_recording() -> None:
+    """
+    This method when invoked closes or `releases` our
+    recorder variable, resets the frame count, and
+    sets our recording status to False
+    :return: void
+    """
     variables.recorder.release()
     utils.reset_recording_frame_count()
     utils.set_recording_status(False)
 
 
-def update_frame():
+def update_frame() -> None:
+    """
+    This method uses open-cv and tensorflow to augment a live stream
+    and draw boxes around recognized objects if the object is within our
+    tracking list.
+    :return: void
+    """
     while utils.get_thread().is_alive():
 
         # Acquire frame and resize to expected shape [1xHxWx3]

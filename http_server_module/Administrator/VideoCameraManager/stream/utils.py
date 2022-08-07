@@ -183,15 +183,30 @@ def set_labels() -> None:
     variables.labels = labels
 
 
-def get_track_list():
+def get_track_list() -> list:
+    """
+    getter for the tracking list
+    :return: list
+    """
     return variables.track_list
 
 
-def set_track_list(lst):
+def set_track_list(lst: list) -> None:
+    """
+    setter for the tracking list
+    :param lst: list of object to track
+    :return: void
+    """
     variables.track_list = lst
 
 
-def init_interpreter():
+def init_interpreter() -> None:
+    """
+    This method starts our tflite model based
+    on the constant MODEL Directory. Then is saved relevant model
+    info into our variables.
+    :return: void
+    """
     interpreter = tflite.Interpreter(model_path=f"{constants.MODEL_DIR}detect.tflite")
     interpreter.allocate_tensors()
 
@@ -219,73 +234,156 @@ def init_interpreter():
     variables.interpreter = interpreter
 
 
-def get_model_height():
+def get_model_height() -> float:
+    """
+    Returns the height of our tflite model
+    :return: float
+    """
     return variables.model_height
 
 
-def get_video_height():
+def get_video_height() -> float:
+    """
+    returns the height of our cv2 camera
+    :return: float
+    """
     return variables.video_height
 
 
-def get_video_width():
+def get_video_width() -> float:
+    """
+    returns the width of our cv2 camera
+    :return: float
+    """
     return variables.video_width
 
 
-def get_model_width():
+def get_model_width() -> float:
+    """
+    returns the width of our tflite model
+    :return: float
+    """
     return variables.model_width
 
 
-def get_min_conf_threshold():
+def get_min_conf_threshold() -> float:
+    """
+    returns the minimum confirmation
+    threshold defined for our model defined
+    in our constants.py
+    :return: float
+    """
     return constants.MIN_CONF_THRESHOLD
 
 
-def get_input_mean():
+def get_input_mean() -> float:
+    """
+    getter for our constant input mean
+    :return: float
+    """
     return constants.INPUT_MEAN
 
 
-def get_input_std():
+def get_input_std() -> float:
+    """
+    getter for our conatant input
+    standard deviation
+    :return:
+    """
     return constants.INPUT_STD
 
 
-def get_interpreter():
+def get_interpreter() -> tflite.Interpreter:
+    """
+    getter for our initialized tflite interpreter
+    :return: Interpreter
+    """
     return variables.interpreter
 
 
-def get_thread():
+def get_thread() -> object:
+    """
+    getter for our camera feed thread
+    :return: object Thread
+    """
     return variables.thread
 
 
-def get_video():
+def get_video() -> object:
+    """
+    getter for our video variable
+    :return: object cv2 video
+    """
     return variables.video
 
 
-def is_floating_model():
+def is_floating_model() -> bool:
+    """
+    Returns true or false if our
+    model is a floating one
+    :return: bool
+    """
     return variables.floating_model
 
 
-def get_input_details():
+def get_input_details() -> object:
+    """
+    Returns the input details attribute
+    for out model
+    :return: object
+    """
     return variables.input_details
 
 
-def get_output_details():
+def get_output_details() -> object:
+    """
+    Returns the output details attribute
+    for out model
+    :return: object
+    """
     return variables.output_details
 
 
-def get_box_idx():
+def get_box_idx() -> int:
+    """
+    returns the index of the box
+    to be drawn
+    :return: int
+    """
     return variables.boxes_idx
 
 
-def get_classes_idx():
+def get_classes_idx() -> int:
+    """
+    returns the index of the class
+    that is being drawn
+    :return: int
+    """
     return variables.classes_idx
 
 
-def get_scores_idx():
+def get_scores_idx() -> int:
+    """
+    returns the index of the score
+    for this classification
+    :return: int
+    """
     return variables.scores_idx
 
 
-def get_main_frame():
+def get_main_frame() -> list:
+    """
+    gets our main `frame` object
+    to be drawn on or handed to the stream
+    :return: object
+    """
     return variables.main_frame
 
 
-def set_main_frame(frame):
+def set_main_frame(frame: list) -> None:
+    """
+    Modifys our current main `frame`
+    :param frame: new frame
+    :return: void
+    """
     variables.main_frame = frame
