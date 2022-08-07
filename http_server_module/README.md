@@ -48,7 +48,7 @@ In the same directory as you manage.py and run the command displayed:
 
 `python manage.py migrate`
 
-I had a strange issue where the process hung. If it hangs go ahead and CNTR-C to exit then run the runserver command again
+then
 
 `python3 manage.py runserver <your_ip_address>:8000`
 
