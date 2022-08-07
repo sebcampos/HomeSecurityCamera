@@ -118,7 +118,6 @@ def update_frame() -> None:
         # Acquire frame and resize to expected shape [1xHxWx3]
         ret, frame = utils.get_video().read()
         if not ret:
-            print('Reached the end of the video!')
             break
         frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         frame_resized = cv2.resize(frame_rgb, (utils.get_model_height(), utils.get_model_width()))
