@@ -72,5 +72,9 @@ utils.init_interpreter()
 # begin the log file 
 utils.write(f"[{utils.get_date_and_time()}] START", f"{utils.get_date()}", log_file=True)
 
+# start the stream
+video_camera.start_video()
+video_camera.start_thread()
+
 # register our tear down method to be used when the script exits
 atexit.register(tear_down)
