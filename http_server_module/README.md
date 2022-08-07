@@ -9,7 +9,7 @@ the placeholder <your_ip_address>:<your_port_number> with your Pis IP and port h
 
 ![path_to_js](../static/path_to_js.png)
 
-![ip_replace_js](../static/path_to_js.png)
+![ip_replace_js](../static/ip_replace_js.png)
 
 Next we will change the settings.py file. It is a file within the folder created for you when you ran
 the django startproject command (not the django startapp one). It should have the same name as the parent folder.
