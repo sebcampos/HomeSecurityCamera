@@ -25,8 +25,8 @@ Then, select enable Legacy Camera support
 Finnaly reboot and we are ready to test the camera!
 
 ## Test Camera
-Using the following command you can download a python file from this repo to test your camera
-You can run it by calling the command `python <name_of_file>` to close the camera press the `q` key
+Using the following command you can download a python file from this repo to test your camera.
+You can run it by calling the command `python <name_of_file>` to close the camera click on the camera windo and then press the `q` key
 
 ```
 wget https://raw.githubusercontent.com/sebcampos/HomeSecurityCamera/master/tensorflow_integration/video_capture_test.py
