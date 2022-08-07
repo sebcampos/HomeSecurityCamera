@@ -21,6 +21,7 @@ def tear_down() -> None:
 	"""
 	utils.get_video().release()
 	utils.get_thread().join()
+	utils.get_thread().release()
 
 def get_track_list() -> list:
 	"""
