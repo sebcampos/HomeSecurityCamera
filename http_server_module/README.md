@@ -9,7 +9,7 @@ the django startproject command (not the django startapp one). It should have th
 
 In your settings.py we need to whitelist your raspberry pi's IP as a valid host so that you can host it on your local network
 
-![ip_adress](../static/ip_address.png)
+![ip_adress](../static/ip_adress.png)
 
 change the list above from [#######] to [1.4.26.452] <- your pi's ip
 You can also whitelist mutiple hosts [ip1, ip2]
