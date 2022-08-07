@@ -19,9 +19,13 @@ def tear_down() -> None:
 	release video and join thread
 	before end of script
 	"""
-	utils.get_video().release()
-	utils.get_thread().join()
-	utils.get_thread().release()
+	video = utils.get_video()
+	thread = utils.get_thread()
+	if video:
+		video.release()
+	if thread:
+		thread.join()
+	exit()
 
 
 def get_track_list() -> list:
@@ -67,10 +71,6 @@ utils.init_interpreter()
 
 # begin the log file 
 utils.write(f"[{utils.get_date_and_time()}] START", f"{utils.get_date()}", log_file=True)
-
-# start the video and thread related to this video
-video_camera.start_video()
-video_camera.start_thread()
 
 # register our tear down method to be used when the script exits
 atexit.register(tear_down)
