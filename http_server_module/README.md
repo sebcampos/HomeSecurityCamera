@@ -56,7 +56,8 @@ If you used the template from the repo you should be able to got to
 ## Final notes
 
 now we will start the server with a different version of the command
-python3 manage.py runserver<your_ip_address>:8000
+
+`python3 manage.py runserver<your_ip_address>:8000`
 
 ![login_page](../static/login_page.png)
 
