@@ -31,6 +31,8 @@ You can run it by calling the command `python <name_of_file>` to close the camer
 ```
 wget https://raw.githubusercontent.com/sebcampos/HomeSecurityCamera/master/tensorflow_integration/video_capture_test.py
 ```
+There should also be an output file where you ran the script called test.avi. This file is a video recording of what we just filmed
+to open this file simply call `open test.avi` to delete it call `rm test.avi`.
 
 Our test shows that it works, great, now lets download the tensorflow detection model from the [TensorFlow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) and use the great code provided by [EdjeElectronics](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/)
 to start out own object detection project.
