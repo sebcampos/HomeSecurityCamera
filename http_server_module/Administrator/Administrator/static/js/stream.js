@@ -131,5 +131,5 @@ function updateBatteryLife()
 	}
 }
 
-window.setTimeout(updateBatteryLife, 5000);
+window.setInterval(updateBatteryLife, 5000);
 
