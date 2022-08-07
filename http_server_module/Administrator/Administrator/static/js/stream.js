@@ -110,7 +110,11 @@ function submitUpdate()
     }
 }
 
-
+/**
+ * This method pings the battery life
+ * end point to get the charge level every 
+ * 5 seconds
+ */
 function updateBatteryLife()
 {
 	let xhr = new XMLHttpRequest();
