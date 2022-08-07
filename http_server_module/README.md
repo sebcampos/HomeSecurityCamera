@@ -84,4 +84,7 @@ save all the logs and videos in the stream folder within the VideoCameraFolder.
 
 The destination can be changed by modifying the constants.py file within the stream folder.
 
-
+Im still looking to add a view (webpage) that will display the contents of the log files and videos for download or view.
+if you are up for it go ahead and make a Pull request with that code! 
+Thanks so much for reading.
+![night](../static/night.gif)
