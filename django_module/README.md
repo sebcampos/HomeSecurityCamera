@@ -83,16 +83,16 @@ Next we will move into our django app directory with the command
 
 `cd djangoapp`
 
-this will set our directory and every directory under it to use python 3.8.8
+Now with the following command we will designate this directory and every subdirectory to use python 3.8.8
 ```
 pyenv virtualenv 3.8.8 ObjectDetection
 pyenv local ObjectDetection
 ```
-Now you will notice that your terminal prompt has changed to show you are in the virtual environment
+You will notice that your terminal prompt has changed to show you are in the virtual environment
 
 ![venv](../static/venv.png)
 
-if you move up one directory you will see that the prompt reverts back to normal to show that you are out of the venv
+if you move up one directory using `cd ..` you will see that the prompt reverts back to normal to show that you are out of the venv
 
 ![novenv](../static/novenv.png)
 
