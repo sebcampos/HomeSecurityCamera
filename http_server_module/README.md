@@ -7,7 +7,7 @@ regardless you will have to do some work in a few areas.
 First we will go into the static folder located in the path Administrator/static/js/stream.js. There you will repalce
 the placeholder <your_ip_address>:<your_port_number> with your Pis IP and port hosting the webserver
 
-Next we will ser with the settings.py file. It is a file within the folder created for you when you ran
+Next we will change the settings.py file. It is a file within the folder created for you when you ran
 the django startproject command (not the django startapp one). It should have the same name as the parent folder.
 
 In your settings.py we need to whitelist your raspberry pi's IP as a valid host so that you can host it on your local network
