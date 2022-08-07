@@ -120,6 +120,13 @@ python3 -m pip install opencv-python
 - opencv will be used to interact with the webcam
 
 
+# Django
+Now that we have our dependancies squared away we can begin developing our django project
+In our venv we will run the command (I chose to name the project SecurityCamera but you can name it whatever youd like)
 
+`python3 -m django startproject SecurityCamera`
+
+This will create a new django web application template for us.
+![djangostructure](../static/djangostructure.png)
 
 
