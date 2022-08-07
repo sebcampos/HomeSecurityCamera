@@ -64,3 +64,6 @@ The file looks for a the model folder then opensthe detect.tflite and labelmap.t
 ```
 python object_detection_test.py
 ```
+Success! looks like we have successfully downloaded our machine learning software and video capture software.
+
+![object_detection_test](../static/object_detection_test.png)
