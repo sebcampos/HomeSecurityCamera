@@ -13,6 +13,7 @@ def get_labels() -> list:
 	"""
 	return utils.get_labels()
 
+
 def tear_down() -> None:
 	"""
 	release video and join thread

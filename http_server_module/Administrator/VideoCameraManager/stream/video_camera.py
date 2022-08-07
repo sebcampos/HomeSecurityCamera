@@ -3,6 +3,7 @@ import cv2
 from . import variables
 from . import utils
 
+
 def start_thread():
     variables.thread = threading.Thread(target=update_frame, args=())
     variables.thread.start()
@@ -14,9 +15,11 @@ def start_video():
     variables.video_height = video.get(cv2.CAP_PROP_FRAME_HEIGHT)
     variables.video = video
 
+
 def format_frame(frame):
-	_, jpg = cv2.imencode(".jpg", frame)
-	return jpg.tobytes()
+    _, jpg = cv2.imencode(".jpg", frame)
+    return jpg.tobytes()
+
 
 def feed():
     while utils.get_thread().is_alive():
@@ -25,38 +28,41 @@ def feed():
         yield (b'--frame\r\n'
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
 
+
 def check_track_list(label):
-        if utils.get_recording_status() and utils.get_recording_frame_count() <= 0:
-                end_recording()
-                utils.write(f"[{utils.get_date_and_time()}] recording ended", utils.get_date(), log_line=True)
-                
-        if label in utils.get_track_list() and utils.get_recording_status() == False:
-                start_recording()
-                utils.write(f"[{utils.get_date_and_time()}] recording started", utils.get_date(), log_line=True)
-                return True
-        elif label in utils.get_track_list() and utils.get_recording_status() == True:
-                utils.reset_recording_frame_count()
-                return True
-        elif label not in utils.get_track_list() and utils.get_recording_status() == True:
-                utils.decrement_recording_frame_count()
-                return False
-        else:
-                return False
-        
+    if utils.get_recording_status() and utils.get_recording_frame_count() <= 0:
+        end_recording()
+        utils.write(f"[{utils.get_date_and_time()}] recording ended", utils.get_date(), log_line=True)
+
+    if label in utils.get_track_list() and utils.get_recording_status() == False:
+        start_recording()
+        utils.write(f"[{utils.get_date_and_time()}] recording started", utils.get_date(), log_line=True)
+        return True
+    elif label in utils.get_track_list() and utils.get_recording_status() == True:
+        utils.reset_recording_frame_count()
+        return True
+    elif label not in utils.get_track_list() and utils.get_recording_status() == True:
+        utils.decrement_recording_frame_count()
+        return False
+    else:
+        return False
+
+
 def start_recording():
-        size = (int(utils.get_video_width()), int(utils.get_video_height()))
-        variables.recorder = cv2.VideoWriter(
-                        f"{utils.get_video_log_dir()}{utils.get_date_and_time()}.avi",
-			cv2.VideoWriter_fourcc(*'MJPG'),
-			10,
-			size
-		)
-        utils.set_recording_status(True)
+    size = (int(utils.get_video_width()), int(utils.get_video_height()))
+    variables.recorder = cv2.VideoWriter(
+        f"{utils.get_video_log_dir()}{utils.get_date_and_time()}.avi",
+        cv2.VideoWriter_fourcc(*'MJPG'),
+        10,
+        size
+    )
+    utils.set_recording_status(True)
+
 
 def end_recording():
-        variables.recorder.release()
-        utils.reset_recording_frame_count()
-        utils.set_recording_status(False)
+    variables.recorder.release()
+    utils.reset_recording_frame_count()
+    utils.set_recording_status(False)
 
 
 def update_frame():
@@ -91,14 +97,15 @@ def update_frame():
         imW = utils.get_video_width()
         imH = utils.get_video_height()
         for i in range(len(scores)):
-            if ((scores[i] > utils.get_min_conf_threshold()) and (scores[i] <= 1.0)):
-                object_name = utils.get_labels(main_labels=True)[int(classes[i])]  # Look up object name from "labels" array using class index
-                
+            if (scores[i] > utils.get_min_conf_threshold()) and (scores[i] <= 1.0):
+                object_name = utils.get_labels(main_labels=True)[
+                    int(classes[i])]  # Look up object name from "labels" array using class index
+
                 # entry point to check lables
                 if check_track_list(object_name):
-                        pass
+                    pass
                 else:
-                        continue
+                    continue
                 # Get bounding box coordinates and draw box
                 # Interpreter can return coordinates that are outside of image dimensions, need to force them to be within image using max() and min()
                 ymin = int(max(1, (boxes[i][0] * imH)))
@@ -119,6 +126,5 @@ def update_frame():
                             2)  # Draw label text
 
         if utils.get_recording_status():
-                utils.get_recorder().write(frame)
+            utils.get_recorder().write(frame)
         utils.set_main_frame(frame)
-
