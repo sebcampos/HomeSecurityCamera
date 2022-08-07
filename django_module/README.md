@@ -164,5 +164,16 @@ Next up is apps.py which helps us set some configurations for our particular app
 
 Finally 
 
-We have views.py, This helps us display webpages/views from our application we will mainly be focusing on this portion for our project.
+We have views.py, This helps us display webpages/views from our application. We will mainly be focusing on this portion for our project.
 
+In the terminal enter the following command:
+
+`python manage.py runserver`
+
+You will see a url pop up. Go to it in your Raspberry pi and you should find the django starting page
+
+![successdjango](../static/successdjango.png)
+
+Go ahead and enter CNTRL+C in the terminal to close the webserver
+Next checkout the tensorflow_integration module to see how we can use tensorflow lite and a pretrained model
+to detect Objects using our raspberry pi + camera
