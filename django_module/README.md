@@ -121,8 +121,8 @@ python3 -m pip install opencv-python
 
 
 # Django
-Now that we have our dependancies squared away we can begin developing our django project
-In our venv we will run the command (I chose to name the project SecurityCamera but you can name it whatever youd like)
+Now that we have our dependancies squared away we can begin developing our django project.
+In our venv we will run the command below (I chose to name the project SecurityCamera but you can name it whatever youd like)
 
 `python3 -m django startproject SecurityCamera`
 
@@ -130,4 +130,11 @@ This will create a new django web application template for us.
 
 ![djangostructure](../static/djangostructure.png)
 
+There is a new directory below the orignal of the same name containing some important files.
+asgi.py and wsgi.py will not be used in this tutorial But once you are ready to package a django application to be hosted on 
+the world wide web youll need to learn more about these.
+The __init__.py designates this directory as a python module, not sure why but Im sure it has to do with how Django operates.
+It is an empty file that we will leave alone. The manage.py file we will use alot! this file, you guessed it, helps us manage our django application(s)/modules. We only add one module project but it is worth noteing that you can have multiple in the same project.
+We will do this by using the manage.py file and the command startapp as below (make sure you are in the same directory as manage.py when you run this command):
 
+`python manage.py startapp LiveFeed`
