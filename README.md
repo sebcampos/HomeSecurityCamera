@@ -186,4 +186,6 @@ This tutorial shows us how to set up our Pi using a monitor. We will later go in
 
 ## Next steps
 Now that you are all set up with your Raspberry pi we can start setting up all our dependencies and the http server!
-There are more instructions in the README in the django_module folder
+There are more instructions in the README in the django_module folder. You can continue using your pi as is or if you prefer
+you can now connect with ssh or vnc. To connect with VNC you will need to download the vnc viewer app and connect with the credentials you created when setting up the Pi. to connect with ssh you can open a terminal on a seperate computer and use a command similar to:
+`ssh <your_username>@<your_raspberry_ip_address>` note that for both of these you will need to be on the same network as the pi
