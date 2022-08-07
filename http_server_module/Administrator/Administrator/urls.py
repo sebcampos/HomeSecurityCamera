@@ -18,6 +18,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('cam/', include("VideoCameraManager.urls")),
-    path('', include("Resume.urls"))
+    path('cam/', include("VideoCameraManager.urls"))
 ]
