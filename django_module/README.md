@@ -34,7 +34,8 @@ This will make a new directory/folder in your Home folder and move into that dir
 create an empty directory in the current Projects folder called djangoapp
 
 
-Now lets install pyenv and add it to our PATH to help us manage different versions of python when we need to
+Now lets install pyenv and add it to our PATH to help us manage different versions of python when we need to.
+
 pyenv dependencies:
 ```
 sudo apt update
@@ -58,7 +59,7 @@ xz-utils \
 zlib1g-dev \
 libbluetooth-dev
 ```
-
+pyenv
 ```
 curl https://pyenv.run | bash
 echo 'export PATH="$HOME/.pyenv/bin:$PATH"
@@ -81,5 +82,34 @@ next we will install python version 3.8.8 using pyenv so we can use Tensorflow a
 Next we will move into our django app directory with the command
 
 `cd djangoapp`
+
+this will set our directory and every directory under it to use python 3.8.8
+```
+pyenv virtualenv 3.8.8 ObjectDetection
+pyenv local ObjectDetection
+```
+Now you will notice that your terminal prompt has changed to show you are in the virtual environment
+
+![venv](../static/venv.png)
+
+if you move up one directory you will see that the prompt reverts back to normal to show that you are out of the venv
+
+![novenv](../static/novenv.png)
+
+Launching python outside of the venv will run your system python
+
+![systempython](../static/systempython.png)
+
+while launching python in your djangoapp directory will use python 3.8.8
+
+![venvpython](../static/venvpython.png)
+
+Note that installing with pip will install to the python currently in scope.
+to install python dependencies to our 3.8.8 we need to be in that folder
+
+
+
+
+
 
 
