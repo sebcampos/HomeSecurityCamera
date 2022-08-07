@@ -72,6 +72,11 @@ If you are not using the template above youll still want to do this portion
 
 Once you have created the super user go ahead and login.
 
-Now that you have logged in go ahead and add an object in this case i will add myself and walk by
+Now that you have logged in go ahead and test it out.
+
+The log will show when it starts recording and when it end. At this point the script is set up to
+save all the logs and videos in the stream folder within the VideoCameraFolder.
+
+The destination can be changed by modifying the constants.py file within the stream folder.
 
 
