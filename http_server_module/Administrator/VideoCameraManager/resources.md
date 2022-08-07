@@ -1,0 +1,2 @@
+- https://docs.djangoproject.com/en/4.0/topics/auth/default/
+- https://stackoverflow.com/questions/49680152/opencv-live-stream-from-camera-in-django-webpage
