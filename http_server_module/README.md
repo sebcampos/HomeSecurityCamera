@@ -24,7 +24,7 @@ Same folder as the manage.py. we use the "/"  with out quotes to represent a sub
 for my VideoCameraManager app within my VideoCameraManager app, so the path is` BASE DIR /"VideoCameraManager" /"templates"` .
 notice how the path is between brackets. This means it is a list and we can add other template directories to that list as we see fit.
 
-![static_dir](../static/static_dir)
+![static_dir](../static/static_dir.png)
 
 This is the django server structure with the and implemented tf object detection model and web interface.
 inside of the Administrator/VideoCameraManager app you will find a folder called `stream` This is a python module
