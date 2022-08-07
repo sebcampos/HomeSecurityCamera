@@ -33,7 +33,8 @@ now that we have done this part lets try and run the server.
 
 ![make_migrations](../static/make_migrations.png)
 
-if you see the message above not to worry. 
+if you see the message above not to worry.
+Close the server with CNTRL-C then
 In the same directory as you manage.py and run the command displayed:
 
 `python manage.py migrate`
