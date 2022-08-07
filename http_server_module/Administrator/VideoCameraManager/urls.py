@@ -7,6 +7,7 @@ urlpatterns = [
             path("view/stream", views.camera_stream, name='camera_stream'),
             path("view/log", views.stream_log, name='stream_log'),
             path("view/update", views.update_stream, name='update_stream'),
-            path("view/battery", views.battery_stream, name="battery_stream"),
+          # uncomment if you installed pijuice
+          # path("view/battery", views.battery_stream, name="battery_stream"),
             path("view/logout", views.log_out, name="logout") 
         ]
