@@ -60,11 +60,11 @@ def check_track_list(label: str) -> bool:
     """
     if utils.get_recording_status() and utils.get_recording_frame_count() <= 0:
         end_recording()
-        utils.write(f"[{utils.get_date_and_time()}] recording ended", utils.get_date(), log_line=True)
+        utils.write(f"[{utils.get_date_and_time()}] recording ended", utils.get_date(), log_file=True)
         return False
     if label in utils.get_track_list() and utils.get_recording_status() is False:
         start_recording()
-        utils.write(f"[{utils.get_date_and_time()}] recording started", utils.get_date(), log_line=True)
+        utils.write(f"[{utils.get_date_and_time()}] recording started", utils.get_date(), log_file=True)
         return True
     elif label in utils.get_track_list() and utils.get_recording_status() is True:
         utils.reset_recording_frame_count()
