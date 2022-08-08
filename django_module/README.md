@@ -5,7 +5,7 @@ To install go ahead and run the following commands in the terminal.
 The first will install zsh or the Z-Shell
 next it will install git (if not already installed)
 finally it will clone the oh-my-zsh repo and set it as our default shell.
-You will need to reboot for this to take effect everytime you open the shell
+You will need to reboot for this to take effect
 
 ```
 sudo apt install zsh
