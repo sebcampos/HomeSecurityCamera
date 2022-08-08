@@ -122,7 +122,7 @@ Once you have done that you can insert the sd card into your computer and launch
 
 ## Assembly
 If you are using the case provided in this tutorial and the battery you will need to make some minor adjustments to the legs of the battery
-1. Attach camera to Pi via the camera port. Top open it gently grip the black sides of the port and pull up. This will expose a small opening where you will place the camera strip matching stripes to stripes. If you are using the battery it might be better to do this part before placing the battery
+1. Attach camera to Pi via the camera port. To open the top, gently grip the black sides of the port and pull up. This will expose a small opening where you will place the camera strip matching stripes to stripes. If you are using the battery it might be better to do this part before placing the battery
 <p align="middle">
 	<img src="static/cameraport.gif"
 	     alt="cameraport"
