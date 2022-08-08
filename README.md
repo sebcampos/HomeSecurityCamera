@@ -134,7 +134,7 @@ If you are using the case provided in this tutorial and the battery you will nee
 	     style="float: left; width: 50%; height: 20%;" />
 </p>
 
-2. You might notice in the image above I did not screw in all the screws to attach the pi to the case. Only two corners are screwed in and they are diagonal to each other. I did this So i could fit in the battery. The battery gets inserted into the pins after assembly and probably before the camera. You can see in the Image below that the legs corresponding the the missing screws were cut so that the battery can sit on top. I did this with regular scissors 
+2. You might notice in the image above I did not screw in all the screws to attach the pi to the case. Only two corners are screwed in and they are diagonal to each other. I did this So i could fit in the battery. The battery gets inserted into the pins after connecting the camera. You can see in the Image below that the legs corresponding the the missing screws were cut so that the battery can sit on top. I did this with regular scissors 
 
 <p align="middle">
 	<img src="static/battery.png"
