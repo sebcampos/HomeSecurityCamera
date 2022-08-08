@@ -14,6 +14,9 @@ In your settings.py we need to whitelist your raspberry pi's IP as a valid host 
 change the list above from [#######] to ["1.4.26.452"] <- your pi's ip
 You can also whitelist mutiple hosts ["ip1", "ip2"]
 
+We will also need to add the django secret key from the original settings.py we created earlier 
+
+![secret_key_django](../static/secret_key_django.png)
 
 Next in the same file we will designate a folder where our html templates will be held.
 
@@ -31,7 +34,7 @@ I am keeping mine in the directory holding the setting.py file feel free to do t
 
 now that we have done this part lets try and run the server.
 
-`python3 manage.py runserver <your_ip_address>:8000` (we will be running the command this way as of now so that Javascript and the backend can comunicate)
+`python3 manage.py runserver <your_ip_address>:8000`
 
 ![make_migrations](../static/make_migrations.png)
 
