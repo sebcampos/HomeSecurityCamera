@@ -101,7 +101,7 @@ def end_recording() -> None:
     sets our recording status to False
     :return: void
     """
-    variables.recorder.release()
+    variables.recorder.release
     utils.reset_recording_frame_count()
     utils.set_recording_status(False)
 
