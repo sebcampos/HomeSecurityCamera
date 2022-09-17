@@ -22,7 +22,7 @@ def tear_down() -> None:
 	video = utils.get_video()
 	thread = utils.get_thread()
 	if video:
-		video.release()
+		video.release
 	if thread:
 		thread.join()
 	exit()
